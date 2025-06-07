@@ -158,4 +158,81 @@ div > *{
     
   }
 
+  @media screen and (max-width: 768px) {
+    nav {
+        height: 70px;
+        padding: 0 15px;
+        justify-content: center;
+        position: relative;
+    }
+
+    .elements {
+        justify-content: center;
+        margin: 0;
+    }
+
+    .image {
+        width: 12rem;
+        height: 2.5rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .last-elements {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .shop-link {
+        display: none;
+    }
+
+    .menu-icon {
+      display: flex;
+  }
+
+  .mobile-nav {
+      top: 70px;
+      height: calc(100vh - 70px);
+  }
+
+  .one-image {
+      height: 90vh;
+  }
+
+  .one-image-text {
+      left: 5%;
+      bottom: 12%;
+      width: 90%;
+      transform: none;
+  }
+
+  .one-image-text p {
+      font-size: clamp(24px, 8vw, 36px);
+  }
+
+  .learn-more {
+      margin-top: 20px;
+      width: 130px;
+      height: 45px;
+      font-size: 13px;
+  }
+
+
+  footer {
+    height: auto;
+    padding: 30px 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer h6 {
+    font-size: 13px;
+}
+}
+
   
