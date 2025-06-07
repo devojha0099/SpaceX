@@ -22,6 +22,12 @@ nav, footer{
     
     height: 100px;
 }
+nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    
+}
 
 nav h5{
     font-weight: 500;
@@ -144,3 +150,12 @@ div > *{
     font-weight: 100;
     font-size: 17px;
   }
+
+  html, body{
+    height: 100%;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    
+  }
+
+  
